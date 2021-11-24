@@ -23,7 +23,7 @@ function App() {
                       key={id} 
                     />
           }) :
-          console.log("error")}
+          console.log("no one's birth at this date")}
         <button onClick={handlerClick} >Clear All</button>
       </section>
     </div>
